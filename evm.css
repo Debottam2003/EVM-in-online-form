@@ -1,0 +1,54 @@
+      body{
+            font-family: Arial, sans-serif;
+            background-image: url("flag.jpg");
+            background-repeat: no-repeat;
+            background-size: 1500px 900px;
+        }
+        .space{
+            border:7px solid rgb(3, 44, 156);
+            border-radius: 15px;
+            width: 500px;
+            height: 700px;
+            /* background: linear-gradient(to top, rgb(243, 240, 246),rgb(172, 172, 174)); */
+            background-color: rgb(179, 184, 187);
+            box-shadow: 12px 12px 5px rgb(63, 62, 62);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .con{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 0.8rem;
+            width: 99%;
+            color: rgb(3, 44, 156);
+            background: linear-gradient(to top, rgb(248, 248, 248),rgb(153, 153, 155));
+            padding: 1.5px;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+        .img1{
+            width: 125px;
+            height: 125px;
+            padding-bottom: 0.8rem;
+        }
+        .b{
+            border: none;
+            border-radius: 25px;
+            width: 100px;
+            height: 50px;
+            background: linear-gradient(to bottom, rgb(2, 27, 110),rgb(40, 94, 241));
+            box-shadow: 2.5px 2.5px 2px black;
+            color: #fff;
+            font-weight: bold;
+        }
+        .blink{
+            width: 30px;
+            height: 30px;
+            border-radius: 25px;
+            border: none;
+            background-color: rgb(246, 98, 98);
+            border: 1px solid brown;
+        }
